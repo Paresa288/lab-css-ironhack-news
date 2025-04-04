@@ -247,3 +247,17 @@ header {
     
   }
 }
+
+@media (width < 480px) {
+  .menu-image {
+    padding: 10px;
+  }
+
+  .newspaper-name {
+    border-bottom: none;
+  }
+
+  nav {
+    display: none;
+  }
+}
